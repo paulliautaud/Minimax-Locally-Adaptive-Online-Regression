@@ -9,7 +9,7 @@ by **Paul Liautaud, Pierre Gaillard, and Olivier Wintenberger**.
 
 This project implements two online learning algorithms:
 - **Chaining Tree (CT)**: A decision tree-based online regression method achieving minimax-optimal regret.
-- **Locally Adaptive Online Regression (LAOR)**: A method that dynamically adapts to local smoothness variations.
+- **Locally Adaptive Online Regression (Core Tree)**: A method that dynamically adapts to local smoothness variations.
 
 The repository includes:
 - A **separate `models.py` file**, which defines both algorithms.
