@@ -3,7 +3,7 @@
 This repository provides an implementation to illustrate the results of the paper:  
 📄 **"Minimax-Optimal and Locally-Adaptive Online Nonparametric Regression"**  
 by **Paul Liautaud, Pierre Gaillard, and Olivier Wintenberger**.  
-📌 The paper is available at: [arXiv:2410.03363](https://arxiv.org/pdf/2410.03363).
+🚀 The paper is available at: [arXiv:2410.03363](https://arxiv.org/pdf/2410.03363).
 
 ## 📌 Overview
 
