@@ -8,7 +8,7 @@ by **Paul Liautaud, Pierre Gaillard, and Olivier Wintenberger**.
 ## 📌 Overview
 
 This project implements two online learning algorithms:
-- **Chaining Tree (CT)**: A decision tree-based online regression method achieving minimax-optimal regret.
+- **Chaining Tree (CT)**: A decision tree-based online regression method achieving minimax-optimal regret against Hölder continuous functions without prior knowledge.
 - **Locally Adaptive Online Regression (Core Tree)**: A method that dynamically adapts to local smoothness variations.
 
 The repository includes:
