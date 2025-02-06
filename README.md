@@ -13,4 +13,4 @@ This project implements two online learning algorithms:
 
 The repository includes:
 - A **separate `models.py` file**, which defines both algorithms.
-- A **Jupyter Notebook (`minimax_locally_adaptive_reg.ipynb`)**, which trains the models and visualizes experimental results.
+- A **notebook (`minimax_locally_adaptive_reg.ipynb`)**, which trains the models and visualizes experimental results.
