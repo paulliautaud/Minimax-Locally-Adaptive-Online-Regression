@@ -7,8 +7,10 @@ by **Paul Liautaud, Pierre Gaillard, and Olivier Wintenberger**.
 
 ## 📌 Overview
 
-This project implements our online learning algorithm, which achieves **minimax-optimal regret** and **local adaptivity** in an adversarial setting for nonparametric regression.  
-The notebook includes code with:
-- Implementation of **chaining trees**;
-- Implementation of the **locally adaptive core tree** algorithm;
-- **Experiments and simulations** showcasing theoretical guarantees.
+This project implements two online learning algorithms:
+- **Chaining Tree (CT)**: A decision tree-based online regression method achieving minimax-optimal regret.
+- **Locally Adaptive Online Regression (LAOR)**: A method that dynamically adapts to local smoothness variations.
+
+The repository includes:
+- A **separate `models.py` file**, which defines both algorithms.
+- A **Jupyter Notebook (`notebook.ipynb`)**, which trains the models and visualizes experimental results.
