@@ -296,7 +296,7 @@ class Locally_Adaptive_Reg :
             fn = self.nodes[n]['pred']
             path_n, y_hat_n = fn.predict(x)
 
-            gn = np.sign(y_hat_n - y_true) if loss == 'absolute' else 2 * (y_hat_n - y_true)
+            gn = loss_functions[loss](y_hat_n, y_true)[-1]
 
             # Fast learning of the root (online mean) with square loss
             if loss == 'squared':
